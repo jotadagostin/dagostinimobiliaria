@@ -23,4 +23,23 @@ header {
       }
     }
   }
+
+  .header-logo {
+    img {
+      width: 90px;
+      height: 90px;
+    }
+
+    span {
+      width: 189px;
+      height: 73px;
+      font-family: "Philosopher";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 36px;
+      letter-spacing: 0.02em;
+      color: var(--brand-gold);
+    }
+  }
 }

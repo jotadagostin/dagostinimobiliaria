@@ -26,4 +26,8 @@
   --color-bg: var(--brand-green);
   --color-text-primary: var(--brand-gold);
   --color-text-on-dark: #ffffff; /* opcional, contraste */
+
+  /* Fonts: */
+  --font-family-title: "Fredoka", sans-serif;
+  --font-family-text: "Philosopher", sans-serif;
 }
