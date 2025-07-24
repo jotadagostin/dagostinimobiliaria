@@ -1,9 +1,11 @@
 that`s a landpage for a house agency. Its gonna be really simple: just html5, css3 and Javascritp vanilla.
 
 [] HTML5:
-[] Header
+[x] Header
+[] Hero
 [] CSS:
-[] Header
+[x] Header
+[] hero
 [] Javascript
 
 Colors:
