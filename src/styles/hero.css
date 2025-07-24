@@ -1,0 +1,58 @@
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(/src/assets/images/hero-background.png);
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 650px;
+
+  .hero-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    .hero-title {
+      width: 900px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      backdrop-filter: blur(2.5px);
+
+      h1 {
+        font-family: "Philosopher";
+        font-style: italic;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 78px;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+      }
+    }
+
+    .hero-subtitle {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 770px;
+      height: 84px;
+      background: rgba(51, 51, 51, 0.35);
+      border-radius: 0px 20px;
+
+      h2 {
+        font-family: "Fredoka";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 23px;
+        color: var(--brand-white);
+      }
+    }
+  }
+}
