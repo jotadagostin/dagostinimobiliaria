@@ -1,5 +1,5 @@
 #about {
-  width: 1503px;
+  width: 100%;
   height: 800px;
   position: relative;
 
@@ -13,11 +13,12 @@
     height: 160px;
     background-color: var(--brand-green-1);
     position: absolute;
-    width: 1502px;
+    width: 1650px;
     height: 160px;
-    left: 304px;
+    left: 104px;
     top: 122px;
     border-radius: 0px 20px;
+    position: relative;
 
     h1 {
       width: 488px;
@@ -28,6 +29,62 @@
       font-size: 48px;
       line-height: 58px;
       color: #ffffff;
+      margin-right: 180px;
+    }
+  }
+
+  .picture-and-texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 222px;
+    .picture {
+      .build-img {
+        width: 570px;
+        height: 700px;
+        position: absolute;
+        top: 40px;
+        left: 160px;
+      }
+    }
+
+    .texts {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 488px;
+      height: 300px;
+      margin-top: 160px;
+      .text {
+        margin-bottom: 20px;
+        p {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+          color: var(--brand-gray);
+        }
+      }
+    }
+    .topics {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .topic {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        p {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+          color: var(--brand-gray);
+        }
+      }
     }
   }
 }
