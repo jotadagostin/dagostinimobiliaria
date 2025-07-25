@@ -53,6 +53,10 @@
         line-height: 23px;
         color: var(--brand-white);
       }
+
+      h2:hover {
+        color: var(--brand-gold);
+      }
     }
   }
 }

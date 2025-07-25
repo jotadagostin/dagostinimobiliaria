@@ -22,6 +22,15 @@ header {
         color: var(--brand-white);
       }
     }
+
+    .header-group1 a img {
+      transition: filter 0.3s ease;
+    }
+
+    .header-group1 a:hover img {
+      filter: brightness(0) saturate(100%) invert(65%) sepia(64%) saturate(463%)
+        hue-rotate(8deg) brightness(95%) contrast(88%);
+    }
   }
 
   .header-nav {
@@ -76,10 +85,12 @@ header {
       font-weight: 400;
       font-size: 21px;
       line-height: 25px;
+      transition: background-color 0.3s ease;
     }
 
     button:hover {
       background-color: rgb(40, 70, 40);
+      color: #b29655;
     }
   }
 }

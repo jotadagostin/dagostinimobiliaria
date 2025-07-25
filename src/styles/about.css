@@ -1,0 +1,33 @@
+#about {
+  width: 1503px;
+  height: 800px;
+  position: relative;
+
+  .title {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+    padding-top: 30px;
+    width: 100%;
+    height: 160px;
+    background-color: var(--brand-green-1);
+    position: absolute;
+    width: 1502px;
+    height: 160px;
+    left: 304px;
+    top: 122px;
+    border-radius: 0px 20px;
+
+    h1 {
+      width: 488px;
+      height: 160px;
+      font-family: "Fredoka";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 58px;
+      color: #ffffff;
+    }
+  }
+}
