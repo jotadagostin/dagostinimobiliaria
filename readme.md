@@ -2,10 +2,14 @@ that`s a landpage for a house agency. Its gonna be really simple: just html5, cs
 
 [] HTML5:
 [x] Header
-[] Hero
+[x] Hero
+[x] gallery
+[] destaques
 [] CSS:
 [x] Header
-[] hero
+[x] hero
+[x] gallery
+[ ] destaques
 [] Javascript
 
 Colors:
