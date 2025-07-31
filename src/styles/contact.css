@@ -1,0 +1,76 @@
+#contact {
+  width: 100%;
+  height: 730px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .contact-group {
+    position: relative;
+    width: 1200px;
+    height: 429px;
+    background-color: var(--brand-green);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-bg-1 {
+      width: 766px;
+      height: 511px;
+      position: absolute;
+      top: -82px;
+      left: 0;
+    }
+    .contact-bg-2 {
+      width: 363px;
+      height: 544px;
+      position: absolute;
+      top: -114px;
+      left: 837px;
+    }
+
+    .contact-infos {
+      width: 542px;
+      height: 335px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      position: absolute;
+      z-index: 1;
+
+      h1 {
+        font-family: "Fredoka";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 116px;
+        color: var(--brand-white2);
+      }
+
+      h2 {
+        font-family: "Fredoka";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        color: var(--brand-white2);
+      }
+
+      button {
+        background: var(--brand-white2);
+        border-radius: 20px;
+        font-family: "Fredoka";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 31px;
+        padding: 24px 22px 24px 22px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

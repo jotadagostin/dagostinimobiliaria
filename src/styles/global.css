@@ -53,8 +53,3 @@ a:hover {
 li {
   list-style: none;
 }
-
-html,
-body {
-  scroll-behavior: smooth !important;
-}
