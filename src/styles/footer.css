@@ -1,0 +1,49 @@
+#footer {
+  width: 100%;
+  height: 460px;
+  /* background-color: var(--brand-black); */
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+
+  .footer-group {
+    display: flex;
+
+    .group1 {
+      display: flex;
+      background-color: green;
+      .logo-name {
+        width: 350px;
+        height: 277px;
+        img {
+          width: 89px;
+          height: 90px;
+          filter: brightness(0) invert(1);
+        }
+        span {
+          font-family: var(--font-family-footer);
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 40px;
+          letter-spacing: 0.02em;
+          color: var(--brand-white2);
+        }
+      }
+      p {
+        font-family: var(--font-family-title);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--brand-white2);
+      }
+    }
+
+    .group2 {
+      display: flex;
+      justify-content: space-around;
+      background-color: pink;
+    }
+  }
+}
