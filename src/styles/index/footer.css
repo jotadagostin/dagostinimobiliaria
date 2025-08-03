@@ -63,6 +63,7 @@
       .icons-group {
         display: flex;
         gap: 50px;
+        width: 350px;
       }
     }
 

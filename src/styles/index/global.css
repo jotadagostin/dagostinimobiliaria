@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Main brand colors */
+  --brand-gold: #b29655;
+  --brand-green: #394338;
+  --brand-white: #f5f5f5;
+  --brand-white2: #ffffff;
+  --brand-gray: #555555;
+  --brand-black: #000000;
+
+  /* Support variations (close to background tones) */
+  --brand-green-1: #3a4439;
+  --brand-green-2: #384237;
+  --brand-green-3: #374136;
+
+  /* Conveniences in channel format (for rgba / alpha) */
+  --brand-gold-rgb: 178 150 85;
+  --brand-green-rgb: 57 67 56;
+  --brand-green-1-rgb: 58 68 57;
+  --brand-green-2-rgb: 56 66 55;
+  --brand-green-3-rgb: 55 65 54;
+
+  /* Usage tokens (adjust according to project) */
+  --color-bg: var(--brand-green);
+  --color-text-primary: var(--brand-gold);
+  --color-text-on-dark: #ffffff; /* opcional, contraste */
+
+  /* Fonts: */
+  --font-family-title: "Fredoka", sans-serif;
+  --font-family-text: "Philosopher", sans-serif;
+  --font-family-paragraph: "Raleway", sans-serif;
+  --font-family-footer: "Gayathri", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Fredoka", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--brand-gold);
+}
+
+a:hover {
+  color: rgb(40, 70, 40);
+}
+
+li {
+  list-style: none;
+}
