@@ -40,7 +40,7 @@
   .gallery-cards-wrapper {
     overflow: hidden;
     max-width: 100%;
-    width: calc(360px * 3.5 + 14px * 3);
+    width: calc(360px * 3 + 14px * 2);
     position: relative;
   }
 }
