@@ -1,5 +1,5 @@
-@import url(/src/styles/staff/global-staff.css);
-@import url(/src/styles/staff/header-staff.css);
-@import url(/src/styles/staff/profiles-staff.css);
-@import url(/src/styles/staff/contact-staff.css);
-@import url(/src/styles/staff/footer-staff.css);
+@import url(global-staff.css);
+@import url(header-staff.css);
+@import url(profiles-staff.css);
+@import url(contact-staff.css);
+@import url(footer-staff.css);

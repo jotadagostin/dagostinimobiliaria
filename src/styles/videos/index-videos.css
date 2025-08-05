@@ -1,4 +1,4 @@
-@import url(/src/styles/videos/global-videos.css);
-@import url(/src/styles/videos/header-videos.css);
-@import url(/src/styles/videos/contact-videos.css);
-@import url(/src/styles/videos/footer-video.css);
+@import url(global-videos.css);
+@import url(header-videos.css);
+@import url(contact-videos.css);
+@import url(footer-video.css);
