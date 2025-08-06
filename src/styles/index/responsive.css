@@ -219,4 +219,20 @@
       }
     }
   }
+
+  /* ABOUT: */
+
+  #about {
+    display: none;
+  }
+
+  #about-mobile {
+    display: flex;
+    background-image: url("/src/assets/images/about-mobile-BG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 390px;
+    height: 651px;
+  }
 }
