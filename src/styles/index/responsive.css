@@ -1,5 +1,5 @@
 @media screen and (max-width: 390px) {
-  /* header: */
+  /* HEADER: */
   header {
     .header-top {
       display: none;
@@ -34,9 +34,6 @@
       align-items: center;
       justify-content: space-between;
       background-color: var(--brand-green);
-      background: rgba(85, 85, 85, 0.05);
-      backdrop-filter: blur(2.5px);
-
       color: #fff;
       height: 50px;
       padding: 1em;
@@ -72,6 +69,22 @@
     .menu > li {
       margin: 0 1rem;
       overflow: hidden;
+
+      button {
+        width: 100px;
+        height: 26px;
+        background: #3a4439;
+        border-radius: 10px 0px;
+        border: none;
+        color: var(--brand-white);
+        font-family: "Fredoka";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 25px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+      }
     }
 
     .menu-button-container {
@@ -162,6 +175,47 @@
       }
       .menu > li:not(:last-child) {
         border-bottom: 1px solid #444;
+      }
+    }
+  }
+
+  /* HERO: */
+  #hero {
+    .hero-infos {
+      margin-top: 155px;
+      width: 362px;
+      height: 270px;
+      .hero-title {
+        width: 342px;
+        height: 250px;
+        text-align: center;
+        h1 {
+          font-family: "Philosopher";
+          font-style: italic;
+          font-weight: 700;
+          font-size: 65px;
+          line-height: 73px;
+          letter-spacing: 0.02em;
+          color: var(--brand-white);
+        }
+      }
+      .hero-subtitle {
+        width: 380px;
+        height: 70px;
+        padding: 10px;
+        margin-top: 20px;
+        img {
+          display: none;
+        }
+
+        a h2 {
+          font-family: "Fredoka";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 21px;
+          color: var(--brand-white);
+        }
       }
     }
   }
