@@ -228,11 +228,93 @@
 
   #about-mobile {
     display: flex;
+    flex-direction: column;
     background-image: url("/src/assets/images/about-mobile-BG.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 390px;
     height: 651px;
+    position: relative;
+
+    .title-mobile {
+      width: 390px;
+      height: 145px;
+      background: rgba(0, 102, 255, 0.5);
+      margin-top: 59px;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      h1 {
+        font-family: "Fredoka", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        text-align: right;
+        color: var(--brand-white);
+      }
+    }
+
+    .text-mobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 342px;
+      height: 651px;
+      position: absolute;
+      top: 0;
+      left: 48px;
+      gap: 30px;
+      padding: 12px;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 0.01%,
+        rgba(0, 0, 0, 0.14) 100%
+      );
+      backdrop-filter: blur(2.5px);
+      border-radius: 0px;
+
+      h1 {
+        font-family: "Fredoka", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        text-align: right;
+        color: var(--brand-white);
+      }
+
+      p {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        color: var(--brand-white);
+      }
+
+      .topic-mobile {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 330px;
+        height: 60px;
+        padding: 20px;
+
+        span {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: right;
+          color: var(--brand-white);
+        }
+      }
+    }
   }
 }
