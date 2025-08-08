@@ -403,9 +403,10 @@
 
         .collum2-pic3-pic4 {
           display: flex;
+          width: 390px;
           gap: 0;
           img {
-            width: 245px;
+            width: 195px;
             height: 232px;
           }
         }
