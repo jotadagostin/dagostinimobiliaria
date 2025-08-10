@@ -415,7 +415,7 @@
     }
   }
 
-  /* Highlights MOBILE: */
+  /* HIGHLIGHTS MOBILE: */
 
   #highlights {
     height: 2531px;
@@ -433,7 +433,7 @@
     }
   }
 
-  /* Contacts MOBILE: */
+  /* CONTACT MOBILE: */
 
   #contact {
     .contact-group {
@@ -488,6 +488,145 @@
           border: none;
           cursor: pointer;
         }
+      }
+    }
+  }
+
+  /* FOOTER MOBILE: */
+
+  #footer {
+    height: 750px;
+    .footer-group {
+      width: 390px;
+      flex-direction: column;
+      justify-content: center;
+
+      .group1 {
+        justify-content: left;
+        width: 390px;
+        justify-content: center;
+        margin-bottom: 30px;
+
+        .logo {
+          .logo-name {
+            justify-content: center;
+            padding-right: 205px;
+            img {
+              width: 200px;
+              height: 120px;
+            }
+            span {
+              font-family: var(--font-family-footer);
+              font-style: normal;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 40px;
+            }
+          }
+        }
+
+        p {
+          font-family: var(--font-family-title);
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+        }
+      }
+      .group2 {
+        padding: 10px;
+        width: 390px;
+        justify-content: center;
+        align-items: center;
+
+        .services {
+          width: 180px;
+          height: 219px;
+
+          h3 {
+            font-family: "Fredoka";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: var(--brand-white2);
+            margin-bottom: 27px;
+          }
+          ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-family: "Fredoka";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: var(--brand-white2);
+            cursor: pointer;
+          }
+        }
+        .resources {
+          width: 180px;
+          height: 219px;
+
+          h3 {
+            font-family: "Fredoka";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 17px;
+            color: var(--brand-white2);
+            margin-bottom: 27px;
+          }
+          ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-family: "Fredoka";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: var(--brand-white2);
+            cursor: pointer;
+          }
+        }
+        .suporte {
+          width: 172px;
+          height: 219px;
+          h3 {
+            font-family: "Fredoka";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: var(--brand-white2);
+            margin-bottom: 27px;
+          }
+          ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-family: "Fredoka";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: var(--brand-white2);
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .footer-copyright {
+      width: 362px;
+      height: 65px;
+      p {
+        font-size: 14px;
+        line-height: 17px;
+        color: white;
+        text-align: center;
       }
     }
   }
