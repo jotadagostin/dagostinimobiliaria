@@ -432,4 +432,63 @@
       gap: 100px;
     }
   }
+
+  /* Contacts MOBILE: */
+
+  #contact {
+    .contact-group {
+      .contact-bg-1 {
+        width: 480px;
+        height: 320px;
+        top: 109px;
+      }
+      .contact-bg-2 {
+        width: 376px;
+        height: 564px;
+        left: 14px;
+        top: -135px;
+      }
+
+      .contact-infos {
+        width: 542px;
+        height: 335px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        z-index: 1;
+
+        h1 {
+          font-weight: 500;
+          font-size: 60px;
+          line-height: 81px;
+          color: var(--brand-white2);
+        }
+
+        h2 {
+          font-family: "Fredoka";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 39px;
+          text-align: center;
+          color: var(--brand-white2);
+        }
+
+        button {
+          background: var(--brand-white2);
+          border-radius: 20px 0px;
+          font-family: "Fredoka";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          padding: 22px 20px 22px 20px;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }
