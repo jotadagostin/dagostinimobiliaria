@@ -414,4 +414,22 @@
       }
     }
   }
+
+  /* Highlights MOBILE: */
+
+  #highlights {
+    height: 2531px;
+
+    .gallery-title {
+      h1 {
+        width: 322px;
+        height: 66px;
+      }
+    }
+
+    .gallery-cards {
+      flex-direction: column;
+      gap: 100px;
+    }
+  }
 }
