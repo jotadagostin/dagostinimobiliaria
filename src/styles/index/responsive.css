@@ -33,10 +33,18 @@
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-      background-color: var(--brand-green);
-      color: #fff;
+      /* background-color: var(--brand-green); */
+      background-color: rgba(57, 67, 56, 0.4); /* verde com 30% de opacidade */
+      backdrop-filter: blur(10px);
       height: 50px;
       padding: 1em;
+      position: fixed;
+      z-index: 1000;
+      width: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 55px; /* exemplo */
 
       .logo-mobile {
         display: flex;
@@ -84,6 +92,7 @@
         line-height: 25px;
         transition: background-color 0.3s ease;
         cursor: pointer;
+        padding-bottom: 5px;
       }
     }
 
@@ -172,12 +181,12 @@
         width: 100%;
         color: white;
         background-color: rgba(
-          255,
-          255,
-          255,
-          0.4
-        ); /* branco com 30% de opacidade */
-        backdrop-filter: blur(10px); /* desfoca o que está atrás */
+          57,
+          67,
+          56,
+          0.8
+        ); /* verde com 30% de opacidade */
+        backdrop-filter: blur(10px);
       }
       .menu > li:not(:last-child) {
         border-bottom: 1px solid #444;
