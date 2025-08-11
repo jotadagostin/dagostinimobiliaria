@@ -181,10 +181,10 @@
         width: 100%;
         color: white;
         background-color: rgba(
-          57,
-          67,
-          56,
-          0.8
+          88,
+          88,
+          88,
+          0.9
         ); /* verde com 30% de opacidade */
         backdrop-filter: blur(10px);
       }
