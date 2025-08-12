@@ -198,10 +198,15 @@
 
   #gallery {
     display: flex;
-    height: 5815px;
+    height: 3075px;
     margin-top: 550px;
 
     .gallery-title {
+      height: 0;
+      z-index: 1;
+      padding-top: 0;
+      margin-top: 33px;
+      margin-bottom: 32px;
       h1 {
         font-style: normal;
         font-weight: 400;
@@ -212,6 +217,7 @@
         height: 44px;
         left: 14px;
         top: 61px;
+        margin-top: 33px;
       }
     }
 
@@ -239,6 +245,9 @@
             width: 390px;
             height: 390px;
           }
+          p {
+            display: none;
+          }
         }
       }
 
@@ -252,6 +261,9 @@
             width: 390px;
             height: 390px;
           }
+          p {
+            display: none;
+          }
         }
         .collum2-pic3-pic4 {
           flex-direction: column;
@@ -259,6 +271,9 @@
           img {
             width: 390px;
             height: 390px;
+          }
+          p {
+            display: none;
           }
         }
       }
