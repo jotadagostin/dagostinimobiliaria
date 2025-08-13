@@ -25,6 +25,11 @@
       href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    />
+
     <link rel="stylesheet" href="src/styles/videos/index-videos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -75,7 +80,94 @@
         </nav>
         <button>Contato</button>
       </div>
+
+      <div class="top-nav mobile">
+        <div class="logo-mobile">
+          <img src="src/assets/new-logo.png" alt="" />
+          <span>Imobiliaria Dagostin</span>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <ul class="menu">
+          <li>
+            <a href="index.html"><span>Home</span></a>
+          </li>
+          <li>
+            <a href="videos.html"><span>Galeria</span></a>
+          </li>
+
+          <li><a href="staff.html">Nossos Consultores</a></li>
+          <li><button>Contato</button></li>
+        </ul>
+      </div>
     </header>
+
+    <div class="content">
+      <div class="section-header">
+        <h1>Galeria de videos</h1>
+      </div>
+
+      <div class="video-gallery">
+        <div class="gallery-item">
+          <img
+            src="https://assets.codepen.io/156905/rainier.jpg"
+            alt="Mount Rainier"
+          />
+          <div class="gallery-item-caption">
+            <!--<div>-->
+            <h2>Mount Rainier</h2>
+            <p>14410 feet of adventure</p>
+            <!--</div>-->
+            <a class="vimeo-popup" href="https://vimeo.com/179049611"></a>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://assets.codepen.io/156905/olympicnationalpark.jpg"
+            alt="Olympic National Park"
+          />
+          <div class="gallery-item-caption">
+            <!--<div>-->
+            <h2>Olympic National Park</h2>
+            <p>Mountains, rain forests, wild coastlines</p>
+            <!--</div>-->
+            <a class="vimeo-popup" href="https://vimeo.com/108785446"></a>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://assets.codepen.io/156905/northcascadespark.jpg"
+            class="north-cascades-img"
+            alt="North Cascades National Park"
+          />
+          <div class="gallery-item-caption">
+            <!--<div>-->
+            <h2>North Cascades</h2>
+            <p>The mountains are calling</p>
+            <!--</div>-->
+            <a class="vimeo-popup" href="https://vimeo.com/3653567"></a>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://assets.codepen.io/156905/mountsthelens.jpg"
+            alt="Mount St Helens"
+          />
+          <div class="gallery-item-caption">
+            <!--<div>-->
+            <h2>Mount St. Helens</h2>
+            <p>The one and only</p>
+            <!--</div>-->
+            <a class="vimeo-popup" href="https://vimeo.com/171540296"></a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <section id="contact">
       <div class="contact-group">
@@ -153,5 +245,13 @@
         </p>
       </div>
     </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Magnific Popup CSS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <script src="src/javascript/video-content.js"></script>
   </body>
 </html>

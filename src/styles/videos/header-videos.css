@@ -93,4 +93,8 @@ header {
       color: #b29655;
     }
   }
+
+  .top-nav {
+    display: none;
+  }
 }
