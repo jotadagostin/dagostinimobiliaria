@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(./src/assets/images/hero-background.png);
+  background: url("/src/assets/images/hero-background.png");
   background-position: center;
   background-size: cover;
   background-position: center;
