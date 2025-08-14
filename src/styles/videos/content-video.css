@@ -15,7 +15,6 @@ body {
   font: var(--font-family-title);
   font-size: 26px;
   font-weight: 400;
-  text-transform: uppercase;
   color: var(--brand-white);
 }
 
@@ -125,17 +124,14 @@ body {
   transform: translate3d(0, 0, 0);
 }
 
-/*
-@media screen and (max-width: 784px) {
+/* @media screen and (max-width: 784px) {
   .video-gallery {
     width: 100%;
-    padding: 15px;    
-
+    padding: 15px;
   }
   .video-gallery .gallery-item {
     width: 95%;
-    margin: 0 auto; 
+    margin: 0 auto;
     width: 100%;
   }
-}
-*/
+} */
