@@ -219,7 +219,7 @@
     .staff-profiles {
       display: flex;
       flex-direction: column;
-      height: 1950px;
+      height: 1000px;
       gap: 120px;
       margin-top: -90px;
     }
