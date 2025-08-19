@@ -92,6 +92,7 @@ header {
     button:hover {
       background-color: rgb(40, 70, 40);
       color: #b29655;
+      cursor: pointer;
     }
   }
 
